@@ -1,0 +1,9 @@
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+stty -ixon
+
+export GO111MODULE=on
+export GOPROXY=https://goproxy.cn,direct
+export GOPRIVATE=*.xxx.com
